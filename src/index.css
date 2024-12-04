@@ -58,7 +58,7 @@ code {
   font-weight: bold;
 }
 
-.f{
+.button_1{
   color: white;
   margin-top: 45%;
   position: absolute;
@@ -69,5 +69,103 @@ code {
 
 .l{
   background-color:#E7E7E7;
-  ;
+  height: 720px;
+  width: 650px;
+}
+
+.v{
+  font-weight: bold;
+  height: 720px;
+  width: 650px;
+}
+
+.v_1{
+  font-size: 40px;
+}
+
+.v_2{
+  font-size: 20px;
+  align-items: end;
+}
+
+.button_2{
+  color: white;
+  margin-top: 23%;
+  position: absolute;
+  left: 23%;
+  height: 56px;
+  width: 140px;
+}
+
+.text{
+  position: absolute;
+  font-size: 22px;
+  font-weight: 450;
+}
+
+.ar{
+  position: absolute;
+}
+
+.ar_black_1{
+  position: absolute;
+  margin-top: 24%;
+  left: 26%;
+  font-size: 24px;
+}
+
+.ar_black_2{
+  position: absolute;
+  margin-top: 24%;
+  left: 52%;
+  font-size: 24px;
+}
+
+.people_1{
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.people_2{
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.ar_purple_1{
+  color: #A958FA;
+  position: absolute;
+  margin-top: 24%;
+  left: 52%;
+  font-size: 24px;
+}
+
+.ar_purple_2{
+  color: #A958FA;
+  position: absolute;
+  margin-top: 24%;
+  left: 52%;
+  font-size: 24px;
+}
+
+.ar_purple_3{
+  color: #A958FA;
+  position: absolute;
+  margin-top: 24%;
+  left: 52%;
+  font-size: 24px;
+}
+
+.zag_1{
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 50px;
+
+}
+
+.block_6{
+  font-size: 22px;
+}
+
+.big_block{
+  width: 2000px;
 }

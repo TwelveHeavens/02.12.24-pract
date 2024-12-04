@@ -1,4 +1,6 @@
 import './index.css';
+import ar_black from '../src/img/ar_black.svg'
+import ar_purple from '../src/img/ar_purple.svg'
 import ar from '../src/img/Ar.svg'
 import arl from '../src/img/ArrowLeft.svg'
 import arr from '../src/img/ArrowRight.svg'
@@ -54,10 +56,10 @@ function App() {
         <div className='h'>
           <p>Spring Season</p>
         </div>
-        <div className='g flex items-center justify-between'>
+        <button className='g flex items-center justify-between'>
           <p>view collection</p>
           <img src={ar} alt='' className='px-3'/>
-        </div>
+        </button>
       </div>
 
       <div className='h-28 bg-orange-500 '>
@@ -87,7 +89,7 @@ function App() {
         </div>
 
         <div className='shirt2 w-1/2'>
-          <div className='f flex bg-black items-center justify-center rounded-md'>
+          <div className='button_1 flex bg-black items-center justify-center rounded-md'>
             <button>Shop Shirts</button>
           </div>
 
@@ -97,14 +99,179 @@ function App() {
         </div>   
       </div>
 
-      <div>
-        <div className='l flex py-16 items-center justify-between mx-28 w-1/2 '>
-          <img src={blue_men} alt=""/>
+      <div className='flex items-center justify-center py-16 gap-10'>
+        <div className='l flex items-center justify-between rounded-md'>
+          <img src={blue_men} alt="" className='imgbg'/>
+          <div className='button_2 flex bg-black items-center justify-center rounded-md'>
+            <button>Shop Sweaters</button>
+          </div>
         </div>
-        <div className='flex bg-orange-500 w-1/2'>
-
+        <div className='v bg-orange-500 rounded-md'>
+          <div className='v_1 px-10 mt-10 items-center justify-center'>
+            <p>“ First Light promises quality, timeless designs and with our mission it is truly a buy it for life purchase. “</p>
+          </div>
+          <div className='v_2 px-10 mt-80'>
+            <p>— Guera Latissa, Creative Director</p>
+          </div>
         </div>
       </div>
+
+      
+      <div className='items-center my-28 '>
+        <div className='flex justify-center'>
+         <img src={woman} alt='' className='people_1'/> 
+         <button className='ar_black_1 flex items-center justify-between'>
+          <p>WOMEN</p>
+          <img src={ar_black} alt='' className='px-3'/>
+        </button>
+        <img src={men} alt='' className='people_2'/>
+        <button className='ar_black_2 flex items-center justify-between'>
+        <p>MEN</p>
+        <img src={ar_black} alt='' className='px-3'/>
+        </button>
+          
+        </div>
+      </div>
+
+
+
+
+      {/* div_1 */}
+      <div className='big_block mb-20 mx-40'>
+
+      {/* div_2.1 */}
+        <div className='zag_1 grid justify-center'>
+          <p>Hot off the press</p>
+        </div>
+
+        {/* div_2.2 */}
+        <div className='block_6 border-2 flex justify-center gap-36'>
+          <div className="block_3.1 border-2">
+            <img src={bloomberg} alt=''/>
+            <div className='h-24 w-80'>
+              <p>“First Light: Where great design and the finest materials unite in ultimate comfort”</p>
+              <div>
+                <button className='ar_purple_1 flex items-center justify-between'>
+                  <p>Read article</p>
+                  <img src={ar_purple} alt='' className='px-3'/>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div className="block_3.2 border-2">
+            <img src={forbes} alt=''/>
+            <div className='h-24 w-80'>
+              <p>“First light proves it is possible to combine great design with the finest materials available.”</p>
+            </div>
+            <div>
+              <button className='ar_purple_2 flex items-center justify-between'>
+                <p>Read article</p>
+                <img src={ar_purple} alt='' className='px-3'/>
+              </button>
+            </div>
+          </div>
+          
+          <div className="block_3.3 border-2">
+            <img src={fast_company} alt=''/>
+            <div className='h-24 w-80'>
+              <p>“Redefining excellence with premium materials and visionary robust design.”</p>
+              <button className='ar_purple_3 flex items-center justify-between'>
+                <p>Read article</p>
+                <img src={ar_purple} alt='' className='px-3'/>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div>
+        <div>
+          <p></p>
+        </div>
+        <div className='flex'>
+          <img src={button_left} alt=''/>
+          <img src={woman_m1} alt=''/>
+          <div>
+            <p>Basik Shirt</p>
+             <p>€49</p>
+          </div>
+          <img src={woman_m2} alt=''/>
+          <div>
+            <p>Beige Jumper</p>
+             <p>€99</p>
+          </div>
+          <img src={woman_m3} alt=''/>
+          <div>
+            <p>Signature Jacket</p>
+             <p>€249</p>
+          </div>
+          <img src={woman_m4} alt=''/>
+          <div>
+            <p>Navy Jumper</p>
+             <p>€49</p>
+          </div>
+          <img src={botton_right} alt=''/>
+        </div>
+        <div>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <p>We always have your back</p>
+        </div>
+        <div className='flex'>
+          <img src={hlopok} alt=''/>
+          <div>
+            <img src={poshiv} alt=''/>
+            <img src={tkan} alt=''/>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <img src={line_58} alt=''/>
+        <div>
+          <img src={premium_st} alt=''/>
+          <div>
+            <p>Premium stain resistant fabrics</p>
+          </div>
+          <img src={expres} alt=''/>
+          <div>
+            <p>Free Express Shipping</p>
+          </div>
+          <img src={retarn} alt=''/>
+          <div>
+            <p>Free returns within 30 days</p>
+          </div>
+          <img src={custom} alt=''/>
+          <div>
+            <p>Customers rate  us 4.8 / 5.0</p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <img src={house} alt=''/>
+        </div>
+        <div>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+
+
     </div>
   );
 }
