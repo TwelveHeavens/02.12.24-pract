@@ -134,32 +134,34 @@ code {
 .ar_purple_1{
   color: #A958FA;
   position: absolute;
-  margin-top: 24%;
-  left: 52%;
-  font-size: 24px;
+  margin-top: 1.35%;
+  left: 23%;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .ar_purple_2{
   color: #A958FA;
   position: absolute;
-  margin-top: 24%;
-  left: 52%;
-  font-size: 24px;
+  margin-top: 3.45%;
+  left: 43%;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .ar_purple_3{
   color: #A958FA;
   position: absolute;
-  margin-top: 24%;
-  left: 52%;
-  font-size: 24px;
+  margin-top: 2.75%;
+  left: 63%;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .zag_1{
   font-size: 45px;
   font-weight: 700;
   margin-bottom: 50px;
-
 }
 
 .block_6{
@@ -168,4 +170,158 @@ code {
 
 .big_block{
   width: 2000px;
+}
+
+.l_1{
+  background-color:#E7E7E7;
+}
+
+.tx_mod_1_1{
+  margin-top: 25%;
+  position: absolute;
+  left: 14%;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.tx_mod_1_2{
+  margin-top: 25%;
+  position: absolute;
+  left: 26%;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.tx_mod_2_1{
+  margin-top: 25%;
+  position: absolute;
+  left: 33%;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.tx_mod_2_2{
+  margin-top: 25%;
+  position: absolute;
+  left: 45%;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.tx_mod_3_1{
+  margin-top: 25%;
+  position: absolute;
+  left: 52%;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.tx_mod_3_2{
+  margin-top: 25%;
+  position: absolute;
+  left: 63%;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.tx_mod_4_1{
+  margin-top: 25%;
+  position: absolute;
+  left: 71%;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.tx_mod_4_2{
+  margin-top: 25%;
+  position: absolute;
+  left: 83%;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.o{
+  font-weight: bold;
+}
+
+.block_card{
+  height: 700px;
+  width: 600px;
+}
+
+.block_card_1{
+  height: 337px;
+  width: 600px;
+}
+
+.block_card_2{
+  height: 337px;
+  width: 600px;
+}
+
+.button_hlopok{
+  color: white;
+  margin-top: 23%;
+  position: absolute;
+  left: 31%;
+  height: 72px;
+  width: 290px;
+  line-height: 12px;
+}
+
+.button_poshiv{
+  color: white;
+  margin-bottom: 120%;
+  position: absolute;
+  right: 28%;
+  height: 72px;
+  width: 230px;
+  line-height: 12px;
+}
+
+.button_tkan{
+  color: white;
+  margin-bottom: 80%;
+  position: absolute;
+  right: 27%;
+  height: 72px;
+  width: 290px;
+  line-height: 12px;
+}
+
+.nado{
+  font-weight: bold;
+}
+
+.spisok1{
+  line-height: 55px;
+
+}
+
+.spisok2{
+  line-height: 55px;
+
+}
+
+.last_text1{
+  margin-bottom: 5%;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.last_text2{
+  margin-bottom: 0%;
+}
+
+.last_photo{
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.last_card{
+  height: 608px;
+  width: 610px;
+  background-color: #E7E7E7;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
